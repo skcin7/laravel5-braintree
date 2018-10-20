@@ -1,10 +1,16 @@
 {
-    "name": "oureastudios/laravel5-braintree",
+    "name": "skcin7/laravel5-braintree",
     "description": "Braintree Service Provider for Laravel 5",
     "keywords": ["braintree","braintree laravel 5"],
-    "homepage": "https://github.com/oureastudios/laravel-braintree",
+    "homepage": "https://github.com/skcin7/laravel-braintree",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Nick Morgan",
+            "email": "nick@nicholas-morgan.com",
+            "homepage": "http://nicholas-morgan.com",
+            "role": "Developer"
+        },
         {
             "name": "Tameem Safi",
             "email": "tameemsafi@live.co.uk",
@@ -20,7 +26,7 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.x",
-        "braintree/braintree_php": "2.x"
+        "braintree/braintree_php": "3.x"
     },
     "autoload": {
         "classmap": [
